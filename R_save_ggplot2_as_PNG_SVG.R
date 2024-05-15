@@ -6,7 +6,6 @@
 ### savePNG(plotRef = plot, name = "testplot", plotWidth = 600, plotHeight = 400)
 
 ### !!! mandatory: input your ggplot2 plot at plotRef = ?
-### !!! mandatory: set your output folder at defaultOutputPath <- ?
 
 # set global defaults
 defaultName <- "plot"
