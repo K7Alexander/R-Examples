@@ -10,14 +10,13 @@
 
 # set global defaults
 defaultName <- "plot"
-defaultOutputPath <- "/Users/username/documents" # !
 defaultWidth <- 1920
 defaultAspectRatio <- 16/9
 
 # PNG
 savePNG <- function(plotRef, 
                     name = defaultName, 
-                    path = defaultOutputPath,
+                    path = NULL, # defaults to working directory
                     aspectRatio = defaultAspectRatio, 
                     plotWidth = defaultWidth, 
                     plotHeight = plotWidth / aspectRatio) {
@@ -37,7 +36,7 @@ savePNG <- function(plotRef,
 # SVG
 saveSVG <- function(plotRef, 
                     name = defaultName, 
-                    path = defaultOutputPath,
+                    path = NULL, # defaults to working directory
                     aspectRatio = defaultAspectRatio, 
                     plotWidth = defaultWidth, 
                     plotHeight = plotWidth / aspectRatio) {
