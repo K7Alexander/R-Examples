@@ -13,7 +13,7 @@ defaultWidth <- 1920
 defaultAspectRatio <- 16/9
 
 # PNG
-savePNG <- function(plotRef, 
+saveGG_PNG <- function(plotRef, 
                     name = defaultName, 
                     path = NULL, # defaults to working directory
                     aspectRatio = defaultAspectRatio, 
@@ -33,7 +33,7 @@ savePNG <- function(plotRef,
 }
 
 # SVG
-saveSVG <- function(plotRef, 
+saveGG_SVG <- function(plotRef, 
                     name = defaultName, 
                     path = NULL, # defaults to working directory
                     aspectRatio = defaultAspectRatio, 
